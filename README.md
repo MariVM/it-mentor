@@ -88,3 +88,11 @@ $ bower i
 ```
 $ gulp serve
 ```
+
+## Style & Rules
+We are got accepted Airbnb Style Guide
+[Read this](https://github.com/airbnb/javascript) and write your code using this style guide
+
+- Tabs or Spaces? Set up your tab to 4 spaces!
+- Use ES6
+- Semicolon end lines

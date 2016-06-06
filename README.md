@@ -1,4 +1,4 @@
-# it-mentor
+it  # it-mentor
 It-mentors - service what is help to connect mentor and mentee for study IT-technology.
 
 ## Technologies
@@ -90,7 +90,7 @@ $ gulp serve
 ```
 
 ## Style & Rules
-We are got accepted Airbnb Style Guide
+We are got accepted Airbnb Style Guide  
 [Read this](https://github.com/airbnb/javascript) and write your code using this style guide
 
 - Tabs or Spaces? Set up your tab to 4 spaces!

@@ -1,4 +1,212 @@
 *{
-    margin: 0;
-    padding: 0;
-}/*test*/
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+ background-color: #c7b39b;
+ background-image: url(../img/hiker.jpg);
+ width: 100%;
+}
+
+.parent:after {
+ content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+
+.text{
+	/* overflow: hidden; */
+}
+
+
+.text1{
+	float: left;
+	width: 50%;
+	height: 1000px;
+	/*background: black;*/
+	position: relative;
+}
+
+.block{
+	position: absolute;
+	width: 300px;
+	height: 358px;
+	/*background: #ff5;*/
+	/*top: 50%;*/
+	/*top: 0;*/
+	right: -150px;
+	/*margin-top: -25px;*/
+}
+
+.block img{
+	width: 300px;
+}
+
+.block2{
+	position: fixed;
+	width: 5px;
+	height: 5px;
+	/*background: #fff;*/
+	top: 0px;
+	right: 0px;
+	
+}
+.text2{
+	float: left;
+	width: 50%;
+	height: 1000px;
+	background: rgba(0,0,0,0.3);
+}
+
+
+/*Выпадающее меню*/
+	
+
+
+	.block2 nav {
+	 width: 5em;
+	  height: 8em;
+	  float: right;
+	  padding: 0;
+	}
+
+	.block2 nav:hover {
+	  background-color: rgba(0, 0, 0, 0.1);
+	  width: 16em;
+	  height: 15em;
+	  border-radius: 0 0 0 15em; }
+
+
+	.block2 nav h1 {
+
+
+	  position: fixed;
+	  top: -0.75em;
+	  right: -0.5em;
+	  margin: 0;
+	  background-color: blue;
+	  color: #000;
+	  z-index: 1;
+	  font-size: 2em;
+	  line-height: 100%;
+	  width: 1em;
+	  padding: 1em .5em 1.25em 1em;
+	  border-radius: 3.0em 0 0 3.0em;
+	  -webkit-transform: rotate(-45deg);
+	  -moz-transform: rotate(-45deg);
+	  -ms-transform: rotate(-45deg);
+	  -o-transform: rotate(-45deg);
+	  transform: rotate(-45deg);
+	  overflow: hidden; }
+
+	.block2 nav h1::before {
+	  content: "\AB";/*&#171; «*/
+	  /*content: "\21D0";*//*&#8656; ⇐*/
+	  color: #fff;
+	  -webkit-transform: rotate(-45deg);
+	  transform: rotate(-45deg); }
+
+	.block2 nav:hover h1 {
+	  display: none; }
+
+	.block2 nav ol {
+	  margin: 0;
+	  padding: 0;
+	  list-style-type: none; }
+
+	.block2 a {
+	  display: block;
+	  position: absolute;
+	  top: -10em;
+	  right: 0em;
+	  border-radius: 5em;
+	  border: .15em solid #fff;
+	  padding: 1.5em 0;
+	  width: 4.5em;
+	  text-align: center;
+	  box-shadow: .45em 0 1.5em rgba(50, 50, 50, 0.75);
+	  -webkit-transition: all 0.2s ease-in;
+	  -moz-transition: all 0.2s ease-in;
+	  -ms-transition: all 0.2s ease-in;
+	  -o-transition: all 0.2s ease-in;
+	  transition: all 0.2s ease-in; }
+
+	.block2 nav:hover a {
+	  /*display: block;*/ }
+
+	.block2 a:link, a:hover, a:focus, a:active, a:visited {
+	  text-decoration: none;
+	  color: #fff;
+	  background-color: blue; }
+
+	.block2 a:hover, a:focus, a:active {
+	  background-color: lightblue;
+	  color: black;
+	  border: .15em solid #000;
+	  }
+
+	.block2 nav:hover li:nth-child(1) a {
+	  right: 12em;
+	  top: 3em; }
+
+	.block2 nav:hover li:nth-child(2) a {
+	  right: 9em;
+	  top: 9em; }
+
+	.block2 nav:hover li:nth-child(3) a {
+	  right: 3.0em;
+	  top: 12em; }
+
+/*Выпадающее меню*/
+
+
+
+/*SING UP/IN*/
+	.content1{
+		position: absolute;
+		top: 400px;
+		right: 20px;
+		display: inline-block;
+	}
+
+	.content2{
+		position: absolute;
+		top: 400px;
+		right: -180px;
+		display: inline-block;
+	}
+	.content{
+		/*margin: 0 auto;*/
+	}
+
+	.sing {
+		display: inline-block;
+	}
+
+	.content1 ul{
+		list-style: none;
+		text-align: center;
+	}
+	.content2 ul{
+		list-style: none;
+		text-align: center;
+	}
+
+	.sing{
+		text-decoration: none;
+		background: #03a5d2;
+		color: #fff;
+		padding: 10px 35px;
+		font-size: 25px;
+		font-weight: 600;
+	}
+
+	.sing li a:hover{
+		background: #04c3e2;
+	}
+
+/*SING UP/IN*/

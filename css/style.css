@@ -5,17 +5,17 @@
 }
 
 body {
- background-color: #c7b39b;
- background-image: url(../img/hiker.jpg);
- width: 100%;
+	background-color: #c7b39b;
+ 	background-image: url(../img/hiker.jpg);
+ 	width: 100%;
 }
 
 .parent:after {
- content: ".";
- display: block;
- height: 0;
- clear: both;
- visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 .text{
@@ -63,105 +63,112 @@ body {
 }
 
 
-/*Выпадающее меню*/
+/*ВЫПАДАЮЩЕЕ МЕНЮ*/
 	
 
 
 	.block2 nav {
-	 width: 5em;
-	  height: 8em;
-	  float: right;
-	  padding: 0;
+		width: 5em;
+		height: 8em;
+		float: right;
+		padding: 0;
 	}
 
 	.block2 nav:hover {
-	  background-color: rgba(0, 0, 0, 0.1);
-	  width: 16em;
-	  height: 15em;
-	  border-radius: 0 0 0 15em; }
-
+		background-color: rgba(0, 0, 0, 0.1);
+		width: 16em;
+		height: 15em;
+		border-radius: 0 0 0 15em;
+	}
 
 	.block2 nav h1 {
-
-
-	  position: fixed;
-	  top: -0.75em;
-	  right: -0.5em;
-	  margin: 0;
-	  background-color: blue;
-	  color: #000;
-	  z-index: 1;
-	  font-size: 2em;
-	  line-height: 100%;
-	  width: 1em;
-	  padding: 1em .5em 1.25em 1em;
-	  border-radius: 3.0em 0 0 3.0em;
-	  -webkit-transform: rotate(-45deg);
-	  -moz-transform: rotate(-45deg);
-	  -ms-transform: rotate(-45deg);
-	  -o-transform: rotate(-45deg);
-	  transform: rotate(-45deg);
-	  overflow: hidden; }
+		position: fixed;
+		top: -0.75em;
+		right: -0.5em;
+		margin: 0;
+		background-color: blue;
+		color: #000;
+		z-index: 1;
+		font-size: 2em;
+		line-height: 100%;
+		width: 1em;
+		padding: 1em .5em 1.25em 1em;
+		border-radius: 3.0em 0 0 3.0em;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		overflow: hidden;
+	}
 
 	.block2 nav h1::before {
-	  content: "\AB";/*&#171; «*/
-	  /*content: "\21D0";*//*&#8656; ⇐*/
-	  color: #fff;
-	  -webkit-transform: rotate(-45deg);
-	  transform: rotate(-45deg); }
+		content: "\AB";/*&#171; «*/
+		/*content: "\21D0";*//*&#8656; ⇐*/
+		color: #fff;
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
 
 	.block2 nav:hover h1 {
-	  display: none; }
+		display: none; }
 
 	.block2 nav ol {
-	  margin: 0;
-	  padding: 0;
-	  list-style-type: none; }
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
 
 	.block2 a {
-	  display: block;
-	  position: absolute;
-	  top: -10em;
-	  right: 0em;
-	  border-radius: 5em;
-	  border: .15em solid #fff;
-	  padding: 1.5em 0;
-	  width: 4.5em;
-	  text-align: center;
-	  box-shadow: .45em 0 1.5em rgba(50, 50, 50, 0.75);
-	  -webkit-transition: all 0.2s ease-in;
-	  -moz-transition: all 0.2s ease-in;
-	  -ms-transition: all 0.2s ease-in;
-	  -o-transition: all 0.2s ease-in;
-	  transition: all 0.2s ease-in; }
+	display: block;
+	position: absolute;
+	top: -10em;
+	right: 0em;
+	border-radius: 5em;
+	border: .15em solid #fff;
+	padding: 1.5em 0;
+	width: 4.5em;
+	text-align: center;
+	box-shadow: .45em 0 1.5em rgba(50, 50, 50, 0.75);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	}
 
 	.block2 nav:hover a {
-	  /*display: block;*/ }
+		/*display: block;*/
+	}
 
 	.block2 a:link, a:hover, a:focus, a:active, a:visited {
-	  text-decoration: none;
-	  color: #fff;
-	  background-color: blue; }
+		text-decoration: none;
+		color: #fff;
+		background-color: blue;
+	}
 
 	.block2 a:hover, a:focus, a:active {
-	  background-color: lightblue;
-	  color: black;
-	  border: .15em solid #000;
-	  }
+		background-color: lightblue;
+		color: black;
+		border: .15em solid #000;
+	}
 
 	.block2 nav:hover li:nth-child(1) a {
-	  right: 12em;
-	  top: 3em; }
+		right: 12em;
+		top: 3em;
+	}
 
 	.block2 nav:hover li:nth-child(2) a {
-	  right: 9em;
-	  top: 9em; }
+	right: 9em;
+	top: 9em;
+	}
 
 	.block2 nav:hover li:nth-child(3) a {
-	  right: 3.0em;
-	  top: 12em; }
+	right: 3.0em;
+	top: 12em;
+	}
 
-/*Выпадающее меню*/
+/*ВЫПАДАЮЩЕЕ МЕНЮ*/
 
 
 

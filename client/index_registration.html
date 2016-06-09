@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="nav navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<h1><strong>IT-mentor</strong></h1>
+			</div>
+			<div class="navbar-right">
+				<a class="btn btn-default btn-lg"><span class="glyphicon glyphicon-home"></span> Home</a>
+				<a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-user"></span> Log</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container panel">
+		<div class="panel-heading">
+			<h1 class="panel-title">Registration:</h1>
+		</div>
+		<hr>
+		<div class="panel-body">
+			<div class="row">
+				<form class="col col-sm-6 col-md-6 col-lg-6">
+					<label for="firstName">First Name</label>
+					<input type="text" id="firstName" class="form-control">
+					<br>
+					<label for="lastName">Last Name</label>
+					<input type="text" id="lastName" class="form-control">
+					<br>
+					<label for="mail">E-mail</label>
+					<input type="email" id="mail" class="form-control">
+					<br>
+					<label for="country">Country</label>
+					<input type="text" id="country" class="form-control">
+					<br>
+					<label for="city">City</label>
+					<input type="text" id="city" class="form-control">
+					<br>
+					<label for="password">Password</label>
+					<input type="password" id="password" class="form-control">
+					<br>
+					<label for="confirm">Confirm password</label>
+					<input type="password" id="confirm" class="form-control">
+				</form>
+				<form class="col col-sm-6 col-md-6 col-lg-6">
+					<label for="skype">Skype</label>
+					<input type="text" id="skype" class="form-control">
+					<br>
+					<label for="tel">Telephone</label>
+					<input type="text" id="tel" class="form-control">
+					<br>
+					<label for="price">Price per hour</label>
+					<input type="text" id="price" class="form-control">
+					<br>
+					<select>
+						<option>USD</option>
+						<option>GRN</option>
+						<option>RUB</option>
+					</select>
+					<br>
+					<br>
+					<label>
+						<input type="checkbox">
+						<span>For free</span>
+					</label>
+					<br>
+					<label>Mentor's Skills</label>
+					<br>
+					<div class="col col-md-6 col-lg-4">
+						<label>
+							<input type="checkbox">
+							<span>HTML</span>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<span>CSS</span>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<span>JavaScript</span>
+						</label>
+					</div>
+					<div class="col col-md-6 col-lg-4">
+						<label>
+							<input type="checkbox">
+							<span>PHP</span>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<span>MySQL</span>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<span>MongoDB</span>
+						</label>
+					</div>
+					<div class="col col-md-6 col-lg-4">
+						<label>
+							<input type="checkbox">
+							<span>ExpressJS</span>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<span>AngularJS</span>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<span>NodeJS</span>
+						</label>
+					</div>
+				</form>
+				<div class="col col-md-3 col-lg-3">
+					<label>
+						<input type="checkbox">
+						<span>Are you Mentor ?</span>
+					</label>
+				</div>
+				<div class="col col-md-3 col-lg-3">
+					<label>
+						<input type="checkbox">
+						<span>Remember me</span>
+					</label>
+				</div>
+				<div class="text-center">
+					<button class="btn btn-default btn-lg">Cancel</button>
+					<button class="btn btn-default btn-lg">Sing Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<span>2016 &copy; developed by {IT-Mentor}TEAM</span>
+	</div>
+
+	<!-- SCRIPT -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
